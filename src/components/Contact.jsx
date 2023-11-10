@@ -1,9 +1,10 @@
+/* eslint-disable react/prop-types */
 import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
 
 import { styles } from "../styles";
-import { EarthCanvas } from "./canvas";
+// import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
@@ -16,6 +17,7 @@ const Contact = () => {
     });
 
     const [loading, setLoading] = useState(false);
+    const [showSuccessMessage, setShowSuccessMessage] = useState(false);
 
     const handleChange = (e) => {
         const { target } = e;
@@ -30,10 +32,6 @@ const Contact = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
         setLoading(true);
-        console.log(
-            "[iw] import.meta.env.VITE_APP_EMAILJS_SERVICE_ID ---> ",
-            import.meta.env.VITE_APP_EMAILJS_SERVICE_ID
-        );
         emailjs
             .send(
                 import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
@@ -50,9 +48,7 @@ const Contact = () => {
             .then(
                 () => {
                     setLoading(false);
-                    alert(
-                        "Thank you. I will get back to you as soon as possible."
-                    );
+                    setShowSuccessMessage(true);
 
                     setForm({
                         name: "",
@@ -131,9 +127,13 @@ const Contact = () => {
                     >
                         {loading ? "Sending..." : "Send"}
                     </button>
+                    {showSuccessMessage && (
+                        <span className="ml-4 text-sm text-green-500">
+                            Message sent successfully!
+                        </span>
+                    )}
                 </form>
             </motion.div>
-
             {/* <motion.div
                 variants={slideIn("right", "tween", 0.2, 1)}
                 className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px]"
