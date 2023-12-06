@@ -239,6 +239,7 @@ const projects = [
         ],
         image: carrent,
         source_code_link: "https://app.saas.bluefoam.io",
+        show_source_code_link: true,
     },
     {
         name: "Imperial London Hotels (Web)",
@@ -306,6 +307,7 @@ const projects = [
         ],
         image: jobit,
         source_code_link: "https://www.imperialhotels.co.uk",
+        show_source_code_link: false,
     },
     {
         name: "Infotel - 2018/19 (Mobile)",
@@ -342,6 +344,7 @@ const projects = [
         ],
         image: tripguide,
         source_code_link: "https://github.com/",
+        show_source_code_link: false,
     },
 ];
 
