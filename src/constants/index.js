@@ -15,14 +15,17 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
     carrent,
     jobit,
     tripguide,
     threejs,
+    sayjel,
+    vikum,
+    pasindu,
+    dbf,
+    kognitiv,
+    noetic,
+    vizuamatix,
 } from "../assets";
 
 export const navLinks = [
@@ -116,68 +119,54 @@ const technologies = [
 
 const experiences = [
     {
-        title: "Intern (Mobile Developer)",
-        company_name: "Vizuamatix Pvt. Ltd",
-        icon: starbucks,
-        iconBg: "#383E56",
-        date: "Aug 2017 - Jan 2018",
-        points: [
-            "Developing and maintaining mobile applications using React Native, express.js and other related technologies",
-        ],
-    },
-    {
-        title: "Associate Software Engineer",
-        company_name: "Vizuamatix Pvt. Ltd",
-        icon: starbucks,
-        iconBg: "#383E56",
-        date: "Feb 2018 - Aug 2019",
-        points: ["Working on live consumer-based products"],
-    },
-    {
         title: "Software Engineer",
-        company_name: "Noetic Marketing Technologies Ltd",
-        icon: starbucks,
+        company_name: "Digital Blue Foam",
+        icon: dbf,
         iconBg: "#383E56",
-        date: "Sep 2019 - Jul 2021",
-        points: [
-            "Working on live consumer-based products",
-            "Reusable component and feature development",
-            "Handle refund and payment process, Apple Pay payment integration",
-            "Hands-on experience in Jira, Conﬂuence, Graylog, Jenkins, AWS",
-        ],
-    },
-    {
-        title: "Software Engineer",
-        company_name: "Kognitiv Corporation",
-        icon: tesla,
-        iconBg: "#E6DEDD",
-        date: "Jul 2021 - Apr 2022",
-        points: [
-            "Developing reusable widgets for the Liferay DXP based on the components",
-            "Hands-on experience in Jira, Conﬂuence, Graylog, Jenkins, AWS",
-        ],
-    },
-    {
-        title: "Senior Software Engineer",
-        company_name: "Kognitiv Corporaton",
-        icon: shopify,
-        iconBg: "#383E56",
-        date: "Apr 2022 - Nov 2022",
-        points: [
-            "Managing development team, conducting releases, team code review",
-            "Involving sprint planning, task breakdown and estimates, conducting retrospectives",
-        ],
-    },
-    {
-        title: "Software Engineer",
-        company_name: "DBF",
-        icon: meta,
-        iconBg: "#E6DEDD",
         date: "Nov 2022 - Present",
         points: [
-            "Developing and maintaining web applications using React.js, three.js and other related technologies",
-            "Collaborating with cross-functional teams to develop software tools for the AEC (Architecture, Engineering, and Construction) industry",
-            "React.js, Redux, Express.js, Javascript, HTML, CSS, Three.js, react-three-fibre, Material UI",
+            "Actively engaged in the entire software development lifecycle of key SaaS and Enterprise web applications, ensuring the delivery of production-quality code within an agile framework, and focusing on continuous optimization of the development process",
+            "Design and develop features using component-based architecture patterns, emphasizing reusability, maintainability, and performance, while actively collaborating with cross-functional global teams across over 8 countries for requirement analysis and user-friendly web application development and maintenance",
+            "Boosted system efficiency by 40% of their legacy product through optimization strategies, including a significant decrease in initial load times, reduction of initial HTTP requests, and smarter resource management",
+            "Contributed to project success by actively participating in code and design reviews, along with providing detailed task analysis, accurate estimations, and identifying potential blockers",
+            "Adapted swiftly to client and QA feedback, implementing necessary design changes and bug fixes",
+        ],
+    },
+    {
+        title: "Senior Software Engineer | Software Engineer",
+        company_name: "Kognitiv Corporation",
+        icon: kognitiv,
+        iconBg: "#383E56",
+        date: "Aug 2021 - Nov 2022",
+        points: [
+            "Supervised and led a team of 2 junior engineers, oversaw releases, and conducted team code reviews",
+            "Actively involved with daily scrum, sprint reviews, retrospectives, and sprint planning while collaborating closely with the delivery manager on backlog grooming to keep product backlog relevant and prioritized, ensuring acceptance criteria were agreed upon and stories were ready for sizing, using agile management tools like JIRA & Confluence for status reporting and planning",
+            "Contributed to the setup and development of live, consumer-facing web products, leveraging expertise in both front-end and back-end technologies as a senior developer",
+        ],
+    },
+    {
+        title: "Software Engineer",
+        company_name: "Noetic Marketing Technologies",
+        icon: noetic,
+        iconBg: "#E6DEDD",
+        date: "Sep 2019 - Aug 2021",
+        points: [
+            "Engaged in the development of live consumer-based web products, focusing on delivering high-quality, user-centric solutions",
+            "Specialized in creating reusable and maintainable components and features, ensuring scalability and efficiency in application design",
+            "Managed key processes including refunds, payments, and bookings, and successfully integrated Apple Pay",
+            "Demonstrated hands-on expertise with a suite of development and deployment tools including Jira, Confluence, Graylog, Jenkins, and AWS, contributing to streamlined project management and deployment processes",
+        ],
+    },
+    {
+        title: "Software Engineer | Associate Software Engineer | Intern",
+        company_name: "Vizuamatix Pvt. Ltd",
+        icon: vizuamatix,
+        iconBg: "#383E56",
+        date: "Aug 2017 - Aug 2019",
+        points: [
+            "Developed, deployed (Playstore / AppStore) & maintained mobile applications",
+            "Developed consumer-based products and services with a focus on reusability",
+            "Partnered with a developer to implement RESTful APIs in NodeJS (Express)",
         ],
     },
 ];
@@ -185,89 +174,170 @@ const experiences = [
 const testimonials = [
     {
         testimonial:
-            "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-        name: "Sara Lee",
-        designation: "CFO",
-        company: "Acme Co",
-        image: "https://randomuser.me/api/portraits/women/4.jpg",
+            "I've work closely with Inod, who is a talented and experienced software engineer. Inod is excels at solving complex problems and making smart decisions. He's an expert at turning client data into the kind our AI systems can use well. Inod's work makes our projects run smoothly, and he's a valuable part of the team. I highly recommend Inod for his technical skills and hard work.",
+        name: "Sayjel Vijay Patel",
+        designation: "Co-Founder & CTO",
+        company: "Digital Blue Foam",
+        image: sayjel,
     },
     {
         testimonial:
-            "I've never met a web developer who truly cares about their clients' success like Rick does.",
-        name: "Chris Brown",
-        designation: "COO",
-        company: "DEF Corp",
-        image: "https://randomuser.me/api/portraits/men/5.jpg",
+            "Inod is a brilliant developer and exceptional teammate one could wish to have in their side. i believe his curiousness and “wanting to know” attitude makes him lot stronger. He was in my team back when i was working with Noetic. Have managed him directly for couple of projects and i’m glad to mention Inod was a go-to guy in the team.",
+        name: "Vikum Samaranayaka",
+        designation: "Software Engineer",
+        company: "Noetic Marketing Pvt. Ltd",
+        image: vikum,
     },
     {
         testimonial:
-            "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-        name: "Lisa Wang",
-        designation: "CTO",
-        company: "456 Enterprises",
-        image: "https://randomuser.me/api/portraits/women/6.jpg",
+            "Inod is a very good team player and a very dedicated employee. I have done several projects with Inod and He helped to me and to the project a lot. He is smart,professional. experienced, deadline oriented and intelligent person. He likes to learn a lot. Just give him a challenge and see, He won't stop until he achieve what he wanted. Doing R&D with him is really helpful.",
+        name: "Pasindu Dineth Peiris",
+        designation: "Senior Software Engineer",
+        company: "Kognitiv Corporation",
+        image: pasindu,
     },
 ];
 
 const projects = [
     {
-        name: "Car Rent",
-        description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        name: "DBF SaaS Product (Web) & Takenaka Application (Web)",
+        description: ` An advanced digital tool for the AEC sector which is supported to integrate environmental, and economic data to make eco-friendly design choices. The project emphasizes analysing local climate, environmental conditions, and urban regulations to improve design decisions. It uses advanced 3D modelling for visualization and simulation, enhancing project feasibility. It has automated design processes, boosting efficiency and productivity. The user-friendly web application makes complex design tools accessible, contributing significantly to urban planning and large-scale projects with a focus on sustainability and data-driven practices\n
+            ● Conducted in-depth R&D for integrating photorealistic Google 3D tiles into existing 3D scenes, enhancing the visual and functional aspects of applications\n
+            ● Developed and maintained key features with reusable, customizable, and maintainable custom components utilizing the latest technologies\n
+            ● Handle email templates using the AWS SES (Simple Email Service)\n
+            ● Worked on design changes and bug fixes based on the client's feedback\n
+            ● Tackle performance bottlenecks and drive improvements to the frontend infrastructure\n`,
         tags: [
             {
-                name: "react",
+                name: "Javascript",
                 color: "blue-text-gradient",
             },
             {
-                name: "mongodb",
-                color: "green-text-gradient",
+                name: "React",
+                color: "blue-text-gradient",
             },
             {
-                name: "tailwind",
-                color: "pink-text-gradient",
+                name: "Redux",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Three.js",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Material UI",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Node.js",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "AWS",
+                color: "blue-text-gradient",
             },
         ],
         image: carrent,
-        source_code_link: "https://github.com/",
+        source_code_link: "https://app.saas.bluefoam.io",
     },
     {
-        name: "Job IT",
-        description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        name: "Imperial London Hotels (Web)",
+        description: `Imperial London is a famous hotel chain in central London, they own 7 hotels altogether. Their central reservation office handles all the contract bookings, bookings via telephone and at the front desk. The staff has a web app (CRO) to manage in-house bookings. Office staff can make contract bookings for the contractors, and direct customers through the web app\n
+                ● Front-end development and middleware integrations\n
+                ● Involving Task breakdown, Sprint planning, Daily scrum meetings\n
+                ● Code reviewing, refactoring, and maintaining the code quality\n
+                ● Sorting out issues regarding the requirements with relevant parties\n
+                ● Managing testing and best practices\n
+                ● Involved in technical discussions and designing\n
+                ● Developing smarter higher-order components\n
+                ● Integrated Refund flow, restructured and maintaining the payment process\n
+                ● Code optimisations and refactoring\n
+                ● Code peer reviews and maintaining good quality coding patterns\n
+            `,
         tags: [
             {
                 name: "react",
                 color: "blue-text-gradient",
             },
             {
-                name: "restapi",
-                color: "green-text-gradient",
-            },
-            {
-                name: "scss",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: jobit,
-        source_code_link: "https://github.com/",
-    },
-    {
-        name: "Trip Guide",
-        description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-        tags: [
-            {
-                name: "nextjs",
+                name: "SCSS",
                 color: "blue-text-gradient",
             },
             {
-                name: "supabase",
-                color: "green-text-gradient",
+                name: "Redux",
+                color: "blue-text-gradient",
             },
             {
-                name: "css",
-                color: "pink-text-gradient",
+                name: "NodeJs(Express)",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Redis",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Socket.io",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Docker",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Craft 3 CMS",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Micro Services",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "AWS",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Jenkins",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Graylog",
+                color: "blue-text-gradient",
+            },
+        ],
+        image: jobit,
+        source_code_link: "https://www.imperialhotels.co.uk",
+    },
+    {
+        name: "Infotel - 2018/19 (Mobile)",
+        description: `The official mobile app for Infotel 2018, Sri Lanka's premier ICT exhibition, enhancing attendee experience with real-time information and interactive features
+            ● User registration for exhibitions and symposiums via QR code\n
+            ● Contact sharing among registered users through mobile devices, with the ability to send e-brochures to their emails\n
+            ● Real-time chat feature enabling conversations with exhibitors\n
+            ● An extensive image and video gallery\n
+            ● Live video streaming capability\n
+            ● Detailed display of stall information and floor plans\n
+            ● Comprehensive presentation of all essential details about the exhibition and symposium\n
+            ● A feature for users to rate stalls\n`,
+        tags: [
+            {
+                name: "JavaScript",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "React Native",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "NodeJs(Express)",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "REST APIs",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "MySQL",
+                color: "blue-text-gradient",
             },
         ],
         image: tripguide,
